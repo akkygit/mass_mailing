@@ -26,22 +26,22 @@ class MassMailingExtension(http.Controller):
                         "name": res.name or "",
                         "is_public": res.is_public or False,
                         "recipients": {
-                            'contact_count': res.contact_count or 0.0,
+                            'contact_count': round(res.contact_count, 2) if res.contact_count else 0.0,
                             'recipients': []
                         },
                         "mailings": {
-                            'mailing_count': res.mailing_count or 0.0,
+                            'mailing_count': round(res.mailing_count, 2) if res.mailing_count else 0.0,
                         },
                         "bounce": {
-                            'contact_pct_bounce': res.contact_pct_bounce or 0.0,
+                            'contact_pct_bounce': round(res.contact_pct_bounce, 2) if res.contact_pct_bounce else 0.0,
                             'bounce': []
                         },
                         "opt_out": {
-                            'contact_pct_opt_out': res.contact_pct_opt_out or 0.0,
+                            'contact_pct_opt_out': round(res.contact_pct_opt_out, 2) if res.contact_pct_opt_out else 0.0,
                             'opt_out': []
                         },
                         "blacklist": {
-                            'contact_pct_blacklisted': res.contact_pct_blacklisted or 0.0,
+                            'contact_pct_blacklisted': round(res.contact_pct_blacklisted, 2) if res.contact_pct_blacklisted else 0.0,
                             'blacklist': []
                         }
                     }
