@@ -26,4 +26,8 @@
     # only loaded in demonstration mode
     'demo': [
     ],
+    'license': 'AGPL-3',  # Use the appropriate license identifier
+    'images': [
+        'static/description/icon.png',
+    ],
 }
