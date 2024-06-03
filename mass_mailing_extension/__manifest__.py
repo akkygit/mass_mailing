@@ -8,7 +8,8 @@
     'description': """
         In This Module, we have provided the REST APIs for the Mailing Module.
     """,
-
+    'price': 1.0,
+    'currency': 'USD',
     'author': "Oodles Technology",
     'website': "https://www.oodles.com",
 
