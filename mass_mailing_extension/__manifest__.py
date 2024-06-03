@@ -6,7 +6,9 @@
         In This Module, we have provided the REST APIs for the Mailing Module. """,
 
     'description': """
-        In This Module, we have provided the REST APIs for the Mailing Module.
+        <h2>Overview</h2>
+        <p>In This Module, we have provided the REST APIs for the Mailing Module. </p>
+        <p>For more information, visit our <a href="https://www.oodles.com">website</a>.</p>
     """,
     'author': "Oodles Technology",
     'website': "https://www.oodles.com",
